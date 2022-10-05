@@ -1,0 +1,18 @@
+{
+    "env": {
+      "test": {
+        "coin": "tbch",
+        "api_wallet_platform": {
+          "transaction": {
+              "senderWalletId": "61d498d374f3720008d778e60cdce7e5",
+              "recipientWalletId": "61d4990994136b000757fc09303aaf52"
+          },
+          "wallet": {
+              "oneUserWalletId": "61d4993858e78700083533772f42fbc7",
+              "recipientAddress": "2N8xzWH36qr7atMHiyE98FyyjHCHtWwwfsB",
+              "whitelistId": "3cFQwutzHZRoXyKxWvJjoJq29twW"
+          }
+        }
+      }
+    }
+  }

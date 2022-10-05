@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tbtc",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61d31dcd14c5df0007999d2f5e2e679f",
+			    "recipientWalletId": "61d31df1f8d0bb0007e658bcc8fcdc3c"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61d31e04134b1400088593d45673c386",
+			    "whitelistId": "prnN6QbhZjFWGzCwqdHGboQHhfa"
+			    }
+		    }
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "env": {
+    "dev": {
+      "coin": "tstx",
+      "api_wallet_platform": {
+        "transaction": {
+          "senderWalletId": "60bf6606fded260006981352a472ebf6",
+          "recipientWalletId": "60bf66b4c795e50006efd9004fcb660a"
+        },
+        "wallet": {
+          "gasTankLimit": "",
+          "oneUserWalletId": ""
+        }
+      }
+    },
+    "test": {
+      "coin": "tstx",
+      "api_wallet_platform": {
+        "transaction": {
+          "senderWalletId": "61a0eb9b3607bf0007d6a0637b198ee8",
+          "recipientWalletId": "61a775e9db21b6000705546e9e967dd4"
+        },
+        "wallet": {
+          "gasTankLimit": "",
+          "oneUserWalletId": "61a776183edc9800077bda3631fe6a7b",
+          "recipientAddress": "SN2JVXVRA8YARV1RFQ47NQNWYANNNXHZMGEV9NXV3",
+          "whitelistId": "jMpNw1SVTgmJsg2wTinb61PGb5C"
+        }
+      }
+    }
+  }
+}

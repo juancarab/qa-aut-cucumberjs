@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "txrp",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61d5b84ee812f90007707d58362585aa",
+			    "recipientWalletId": "61d5b87f13c9b70007e4ab9bda387652"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61d5b895e812f9000770a26bb30a5432",
+			    "whitelistId": "dZzipzdWp2KmvKATCAtvuVWbYPz"
+			    }
+		    }
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "env": {
+    "test": {
+      "coin": "gteth",
+      "api_wallet_platform": {
+        "transaction": {
+          "senderWalletId": "61bb79d6ad98390008f55bc3c078b4f0",
+          "recipientWalletId": "61bb7a08e4005500070fb6e7a6094f55",
+          "senderWalletId_v1": "61c32840625cdf0007cc1aa83b7aa2cb",
+          "recipientWalletId_v1": "61c0d0d9d84c100007fe0f54f56659ba",
+          "gasLimitForNonceHole":90000,
+          "gasPriceForNonceHole":100
+        },
+        "wallet": {
+          "gasTankLimit": "100000000",
+          "oneUserWalletId": "61bb7a3bd880d90007b61a5230c94cf1",
+          "senderAddress": "0x106ce2396f5f8875f041ab50486e74351c8ea090",
+          "recipientAddress": "0x2b3c893acfe51d328eae4ba7ba097b3056f0364f",
+          "recipientAddress_v1": "0x940217c787049b6d2ec90442de1148aa7c364b80",
+          "recipientExternalAddress": "0x3603e1E7e3bCC3103b8c507BEF25e22005266e30",
+          "recipientLowPriorityFeeAddress": "0xa8ef9c0a785d87f024a2703dc7faf39cbe99f8ea",
+          "goerliFeeAddress": "0xb5006cd266e2cdf0bb154ab8c768dc232285a513",
+          "whitelistId": "S4q5LtxB9DqM6x7y9YBHT9yefCM"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "env": {
+    "test": {
+      "baseUrl": "",
+      "cucumberBearerToken": "",
+      "enterpriseId": "",
+      "walletPassphrase": "",
+      "invitedUserId": "",
+      "invitedUserBearerToken": ""
+    },
+    "dev": {
+      "baseUrl": "",
+      "cucumberBearerToken": "",
+      "walletPassphrase": ""
+    }
+  }
+}

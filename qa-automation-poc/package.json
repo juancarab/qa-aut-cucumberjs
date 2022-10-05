@@ -1,0 +1,45 @@
+{
+  "name": "qa-automation-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-ts",
+    "build-ts": "tsc",
+    "default": "./node_modules/@cucumber/cucumber/bin/cucumber-js -p default --tags='@testid_60 or @testid_53 or @testid_70 or @testid_71' --no-strict",
+    "default-test": "ENVIRONMENT=test COIN=btc ./node_modules/@cucumber/cucumber/bin/cucumber-js -p default --no-strict",
+    "report": "./node_modules/.bin/ts-node packages/cucumber/plugins/report.ts",
+    "report4xray": "./node_modules/.bin/ts-node packages/cucumber/plugins/report4xray.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitGo/qa-automation-poc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "7.0.0-rc.0",
+    "@cucumber/pretty-formatter": "1.0.0-alpha.0",
+    "@types/node": "14.14.28",
+    "cz-conventional-changelog": "^3.3.0",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.5"
+  },
+  "dependencies": {
+    "@types/jsonpath": "0.2.0",
+    "axios": "0.21.0",
+    "bignumber.js": "9.0.1",
+    "bitgo": "14.0.0-rc.7",
+    "cucumber-html-reporter": "5.2.0",
+    "dotenv": "8.2.0",
+    "jsonpath": "1.1.0",
+    "jsonschema": "1.4.0",
+    "lodash": "4.17.20",
+    "typescript-cached-transpile": "0.0.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

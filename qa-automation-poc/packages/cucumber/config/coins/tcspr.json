@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tcspr",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61ca24955304c30007c67255a86731dd",
+			    "recipientWalletId": "61ca24ffb738ad00075364ee733607da"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61ca251243ac1700082ea96fca93d2e4",
+			    "whitelistId": "2RJYc8D3SDaToWqwMg1s6CLTYw61"
+			    }
+		    }
+		}
+	}
+}

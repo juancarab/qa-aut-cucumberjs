@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "ttrx",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61d8a5a28abf16000821c3296ad5ee37",
+			    "recipientWalletId": "61d8a6a7b2f7d400072658637aa6a625"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61d8a6e00662ed00077f8a7bbbdd805d",
+			    "whitelistId": "3fcsqLkhzJWpDZabh3D9BbePcDPW"
+			    }
+		    }
+		}
+	}
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "eth-send-transaction-from-bitgo-wallet-to-bitgo-wallet;eth-send-transaction-from-bitgo-wallet-to-bitgo-wallet---happy-path",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "ETH Send Transaction from BitGo wallet to BitGo wallet - Happy path",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have a 'sender' ETH BitGo wallet",
+            "match": {
+              "location": "packages/cucumber/projects/api-wallet-platform/src/steps/transaction/eth/given.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I have a 'recipient' ETH BitGo wallet",
+            "match": {
+              "location": "packages/cucumber/projects/api-wallet-platform/src/steps/transaction/eth/given.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The sender BitGo wallet has funds",
+            "match": {
+              "location": "packages/cucumber/projects/api-wallet-platform/src/steps/transaction/eth/given.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I build and send the ETH transaction with an amount 'less_than' the current balance of the sender BitGo wallet",
+            "match": {
+              "location": "packages/cucumber/projects/api-wallet-platform/src/steps/transaction/eth/when.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93226000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "API",
+                      "JsonPath",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "build",
+                      "status",
+                      "200"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "send",
+                      "status",
+                      "200"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify the BitGo API response if contains the following fields",
+            "match": {
+              "location": "packages/cucumber/common_steps/then.ts:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3975000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: obj needs to be an object\n    + expected - actual\n\n    -false\n    +true\n\n    at JSONPath.query (/home/joel/work/qa-automation-poc/node_modules/jsonpath/lib/index.js:91:10)\n    at /home/joel/work/qa-automation-poc/packages/cucumber/utils/assertionUtils.ts:18:44\n    at Array.forEach (<anonymous>)\n    at Object.responseContainsAssertion (/home/joel/work/qa-automation-poc/packages/cucumber/utils/assertionUtils.ts:15:16)\n    at CustomWorld.<anonymous> (/home/joel/work/qa-automation-poc/packages/cucumber/common_steps/then.ts:27:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I verify that the balance of the 'sender' ETH BitGo wallet was updated properly",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify that the balance of the 'recipient' ETH BitGo wallet was updated properly",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@project_api-wallet-platform",
+            "line": 1
+          },
+          {
+            "name": "@feature_transaction",
+            "line": 2
+          },
+          {
+            "name": "@coin_eth",
+            "line": 3
+          },
+          {
+            "name": "@story_STLX-2328",
+            "line": 4
+          },
+          {
+            "name": "@testid_3",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "eth-send-transaction-from-bitgo-wallet-to-bitgo-wallet",
+    "line": 6,
+    "keyword": "Feature",
+    "name": "ETH Send Transaction from BitGo wallet to BitGo wallet",
+    "tags": [
+      {
+        "name": "@project_api-wallet-platform",
+        "line": 1
+      },
+      {
+        "name": "@feature_transaction",
+        "line": 2
+      },
+      {
+        "name": "@coin_eth",
+        "line": 3
+      },
+      {
+        "name": "@story_STLX-2328",
+        "line": 4
+      },
+      {
+        "name": "@testid_3",
+        "line": 5
+      }
+    ],
+    "uri": "packages/cucumber/projects/api-wallet-platform/src/features/transaction/eth/eth-send-transaction-bitgo-wallets-happy-path.feature"
+  }
+]

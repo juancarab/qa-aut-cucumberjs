@@ -1,0 +1,20 @@
+{
+    "env": {
+      "test": {
+        "coin": "tcelo",
+        "api_wallet_platform": {
+          "transaction": {
+              "senderWalletId": "61d5a1d430630f00070d1f7999f908f5",
+              "recipientWalletId": "61d5a1abb8389d00081c60e55814b00b"
+          },
+          "wallet": {
+              "gasTankAddress": "0xf872294056a50120a2ab6fa10e5b6a8214ecf8b4",
+              "oneUserWalletId": "61d5a0a0871ede00071beabfda1ba200",
+              "recipientAddress": "0xa9ffaee12380326e2d70ae018b2f6763580934b9",
+              "whitelistId": "2qNwoqJ6UaChTpGmUrDz7AwcCCAe"
+          }
+        }
+      }
+    }
+  }
+  

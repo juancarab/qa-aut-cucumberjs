@@ -1,0 +1,17 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tsol",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61df3710db2a1a0007d84f3256dd3d84",
+			    "recipientWalletId": "61df2c0a952cdf0007fc1b2368afb1ab"
+			    },
+			    "wallet": {
+			    "oneUserWalletId": "61df2cb011f8d200079414534d19a25f",
+			    "whitelistId": "28ysQGjuCESZjrBHMtbvUEQ6aJeSqnkGsrxVZqQJvS4L"
+			    }
+		    }
+		}
+	}
+}

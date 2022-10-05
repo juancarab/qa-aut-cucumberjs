@@ -1,0 +1,18 @@
+{
+    "env": {
+      "test": {
+        "coin": "tdot",
+        "api_wallet_platform": {
+          "transaction": {
+              "senderWalletId": "61e6c475fa14cd000844399e906d428b",
+              "recipientWalletId": "61e6bd468121c8000763fab867ce6927"
+          },
+          "wallet": {
+              "oneUserWalletId": "61e6d41313526200070acb1492b9bbca",
+              "recipientAddress": "5HXn4dDhY1uLtxv6ecYe8AWJ6i9ShNCVXyuGDgQ43zFsPhoW",
+              "whitelistId": "5EgDUNuknVXPEydTgy5BNoRKSi3ew46rfotgVwoVSF45TzqT"
+          }
+        }
+      }
+    }
+  }

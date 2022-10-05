@@ -1,0 +1,35 @@
+{
+  "env": {
+    "test": {
+      "coin": "teth",
+      "api_wallet_platform": {
+        "transaction": {
+            "senderWalletId": "61001ba708e17000062da8e761e5d599",
+            "recipientWalletId": "617ff5ac31421200072977b4982fb4eb"
+        },
+        "wallet": {
+            "gasTankLimit": "36000000000000000",
+            "oneUserWalletId": "61800db70f027e0007162a5bca0124fa",
+            "recipientAddress": "0xc93b13642d93b4218bb85f67317d6b37286e8028",
+            "whitelistId": "jMpNw1SVTgmJsg2wTinb61PGb5C"
+        }
+      }
+    },
+
+    "test1": {
+      "coin": "teth",
+      "api_wallet_platform": {
+        "transaction": {
+          "senderWalletId": "",
+          "recipientWalletId": ""
+        },
+        "wallet": {
+          "gasTankLimit": "",
+          "oneUserWalletId": "",
+          "recipientAddress": "",
+          "whitelistId": ""
+        }
+      }
+    }
+  }
+}

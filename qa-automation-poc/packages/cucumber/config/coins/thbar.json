@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+			"coin": "thbar",
+			"api_wallet_platform": {
+				"transaction": {
+					"senderWalletId": "61d6fbe4a89f3c00072d78531aa45190",
+					"recipientWalletId": "61d6fbb9b1a914000764f25f8a2ae777"
+				},
+				"wallet": {
+					"gasTankLimit": "100000000",
+					"oneUserWalletId": "61d6fb7660768500082224e615a53e16",
+					"whitelistId": "jipKEDDBBS2cnegk38QKymn6YKg"
+				}
+			}
+		}
+	}
+}

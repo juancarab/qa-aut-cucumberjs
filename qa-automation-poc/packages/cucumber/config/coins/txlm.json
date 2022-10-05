@@ -1,0 +1,17 @@
+{
+	"env": {
+		"test": {
+		    "coin": "txlm",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61dc6a855733130007b2966769398fd0",
+			    "recipientWalletId": "61dc6a304b66190007e2ef74214f27e2"
+			    },
+			    "wallet": {
+			    "oneUserWalletId": "61dc68bd429cde0007b55148ae3eea0e",
+			    "whitelistId": "E9f5f56aDAy1ahN86aHugm97HpQ"
+			    }
+		    }
+		}
+	}
+}

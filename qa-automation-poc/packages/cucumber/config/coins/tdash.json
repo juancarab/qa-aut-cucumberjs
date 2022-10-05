@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tdash",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61cc5fe0f2ebe9000814eeaef4a81e8e",
+			    "recipientWalletId": "61cc6011112e0a0008a97ef7f76475b5"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61cc604e112e0a0008a9996ad2717ce7",
+			    "whitelistId": "36gsuKU9fvVZgKGDobQYYywbamEB"
+			    }
+		    }
+		}
+	}
+}

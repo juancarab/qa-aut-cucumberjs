@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tzec",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61ccb1084e419d0008c2c34c1130e526",
+			    "recipientWalletId": "61ccb147ea396f0008418bc20df6fcb2"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61ccb178cba45d0007a0c2d8387e53f5",
+			    "whitelistId": "4CP6f9FqCyj43qaoDJPcKxeeBfp2"
+			    }
+		    }
+		}
+	}
+}

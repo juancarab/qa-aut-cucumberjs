@@ -1,0 +1,17 @@
+{
+	"env": {
+		"test": {
+		    "coin": "teos",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61d47051f052050007b6e44a6851d9e0",
+			    "recipientWalletId": "61d470272dda030007487254604c42bf"
+			    },
+			    "wallet": {
+			    "oneUserWalletId": "61d47011d3e9360007d6053e34a8466f",
+			    "whitelistId": "28rfdcyr4hySP2cyjwr8QpEreNc6"
+			    }
+		    }
+		}
+	}
+}

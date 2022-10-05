@@ -1,0 +1,19 @@
+{
+    "env": {
+      "test": {
+        "coin": "talgo",
+        "api_wallet_platform": {
+          "transaction": {
+              "senderWalletId": "61893ffb7bd4950007e1aca01a4c868d",
+              "recipientWalletId": "618972ea1980be0007a864c87dbe3e6d"
+          },
+          "wallet": {
+              "oneUserWalletId": "6189741c9f3b0300070497af906042e4",
+              "recipientAddress": "2CCYFYVWYZMUXCY77VT4D6W7ZFYUG3Q3SQ3XVX3NJHGVNJJCUUJ3BUQE6A",
+              "whitelistId": "4XtF5wrvbQWHaZGiWqYtduXHPAZg"
+          }
+        }
+      }
+    }
+  }
+  

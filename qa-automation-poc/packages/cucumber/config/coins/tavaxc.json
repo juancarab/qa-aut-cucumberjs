@@ -1,0 +1,18 @@
+{
+	"env": {
+		"test": {
+		    "coin": "tavaxc",
+		    "api_wallet_platform": {
+			    "transaction": {
+			    "senderWalletId": "61ae6c806c253500074a28eca554d589",
+			    "recipientWalletId": "61af4dc44352cc0007276a08320d5f80"
+			    },
+			    "wallet": {
+			    "gasTankLimit": "100000000",
+			    "oneUserWalletId": "61af4d7ef0204b00079f0785f91998a7",
+			    "whitelistId": "3H5Qs7LsLbyEZUda7RkRpGtmqpV4"
+			    }
+		    }
+		}
+	}
+}
